@@ -27,7 +27,7 @@ const PROFILE = {
   location: "Chennai, Tamil Nadu",
   status: "Fresher",
   about:
-    "Aspiring Java Backend Developer with a strong foundation in Java, Spring Boot, MySQL and REST APIs. Seeking an opportunity to build scalable applications and contribute to a dynamic software development team.",
+    "Java Backend Developer with a strong foundation in Java, Spring Boot, REST APIs, Spring Data JPA, and SQL. Experienced in building RESTful applications with database integration, authentication, and role-based access control. Seeking an entry-level backend development opportunity to build reliable and scalable applications.",
 };
 
 function App() {
