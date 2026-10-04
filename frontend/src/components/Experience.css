@@ -1,0 +1,39 @@
+.experience {
+  display: grid;
+  gap: 16px;
+}
+
+.experience-card {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.experience-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.experience-card h3 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.experience-role {
+  margin: 2px 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.experience-date {
+  font-size: 0.8rem;
+  padding: 4px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--muted);
+  align-self: start;
+  white-space: nowrap;
+}

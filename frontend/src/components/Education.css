@@ -1,0 +1,69 @@
+.timeline {
+  position: relative;
+  padding-left: 28px;
+  display: grid;
+  gap: 16px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 8px;
+  bottom: 8px;
+  width: 2px;
+  background: var(--border);
+}
+
+.timeline-item {
+  position: relative;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -28px;
+  top: 22px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 3px solid var(--bg);
+}
+
+.timeline-card {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 18px 20px;
+}
+
+.timeline-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.timeline-card h3 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.timeline-years {
+  font-size: 0.8rem;
+  padding: 4px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--muted);
+  white-space: nowrap;
+  align-self: start;
+}
+
+.timeline-degree {
+  margin: 6px 0 2px;
+}
+
+.timeline-score {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
